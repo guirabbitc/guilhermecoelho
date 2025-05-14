@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-dark-blue: #123C4A;
+  --primary-dark-green: #1F6F4A;
+  --light-bg-1: #f8f9fa;
+  --light-bg-2: #f0f4f8;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  scroll-behavior: smooth;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  max-width: 1200px;
+}
