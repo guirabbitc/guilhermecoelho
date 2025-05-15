@@ -15,7 +15,7 @@ const Hero = () => {
       <div className="relative z-10 flex flex-col items-center text-center max-w-3xl mx-auto">
         <div className="w-48 h-48 rounded-full border-4 border-white overflow-hidden mb-8 shadow-lg">
           <img 
-            src="https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+            src="./Images/Profile.src" 
             alt="Guilherme Coelho" 
             className="w-full h-full object-cover"
           />
