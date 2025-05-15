@@ -21,7 +21,7 @@ const Hero = () => {
           />
         </div>
         <h1 className="text-5xl md:text-6xl font-bold mb-4">Guilherme Coelho</h1>
-        <p className="text-xl md:text-2xl mb-8 font-light">I am a young entrepreneur, curious and dedicated, with a greatmdrive to create, innovate, and develop solutions that can transform our society into a more harmonious, happier, and prosperous place.</p>
+        <p className="text-xl md:text-2xl mb-8 font-light">I am a young entrepreneur, curious and dedicated, with a great drive to create, innovate, and develop solutions that can transform our society into a more harmonious, happier, and prosperous place.</p>
         <button 
           onClick={scrollToStartups}
           className="flex items-center gap-2 bg-white text-[#123C4A] px-6 py-3 rounded-full font-medium hover:bg-opacity-90 transition-all duration-300 shadow-lg"
