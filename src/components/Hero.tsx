@@ -1,5 +1,6 @@
 import React from 'react';
 import { ChevronDown } from 'lucide-react';
+import ProfileImg from '../images/Profile.jpeg';
 
 const Hero = () => {
   const scrollToStartups = () => {
@@ -15,7 +16,7 @@ const Hero = () => {
       <div className="relative z-10 flex flex-col items-center text-center max-w-3xl mx-auto">
         <div className="w-48 h-48 rounded-full border-4 border-white overflow-hidden mb-8 shadow-lg">
           <img 
-            src="./Images/Profile.src" 
+            src={ProfileImg} 
             alt="Guilherme Coelho" 
             className="w-full h-full object-cover"
           />
